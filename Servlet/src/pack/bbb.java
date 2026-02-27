@@ -29,10 +29,8 @@ public class bbb extends HttpServlet {
         pw.println("Name : " + name + "<br>");
         pw.println("City : " + city + "<br><br>");
 
-        pw.println("<form action='" + request.getContextPath() + "/index.html'>");
-        pw.println("<button type='submit'>Go Back</button>");
-        pw.println("</form>");
-
+        pw.println("<a href='" + request.getContextPath() + "/ccc?name="
+                + name + "&city=" + city + "'>Save</a>");
         pw.println("</body>");
         pw.println("</html>");
     }
