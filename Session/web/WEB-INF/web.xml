@@ -98,6 +98,16 @@
         <url-pattern>/bbb</url-pattern>
     </servlet-mapping>
 
+<servlet>
+<servlet-name>servletc</servlet-name>
+<servlet-class>com.sos.servletc</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>servletc</servlet-name>
+<url-pattern>/servletc</url-pattern>
+</servlet-mapping>
+
     <!-- Welcome File -->
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
@@ -105,3 +115,4 @@
 
 
 </web-app>
+
