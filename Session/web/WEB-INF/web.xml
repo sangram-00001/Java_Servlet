@@ -99,13 +99,13 @@
     </servlet-mapping>
 
 <servlet>
-<servlet-name>servletc</servlet-name>
-<servlet-class>com.sos.servletc</servlet-class>
+<servlet-name>ccc</servlet-name>
+<servlet-class>com.giet.ccc</servlet-class>
 </servlet>
 
 <servlet-mapping>
-<servlet-name>servletc</servlet-name>
-<url-pattern>/servletc</url-pattern>
+<servlet-name>ccc</servlet-name>
+<url-pattern>/ccc</url-pattern>
 </servlet-mapping>
 
     <!-- Welcome File -->
@@ -115,4 +115,5 @@
 
 
 </web-app>
+
 
