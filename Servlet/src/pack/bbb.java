@@ -9,8 +9,8 @@ public class bbb extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException {
 
-        String name = request.getParameter("name");
-        String city = request.getParameter("city");
+        String name=request.getParameter("name");
+        String city=request.getParameter("city");
 
         System.out.println("Data Arrived");
         System.out.println("Name : " + name);
