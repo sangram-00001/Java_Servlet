@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact name="LoginJsp">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoginJsp</output-path>
+    <root id="root" />
+  </artifact>
+</component>
